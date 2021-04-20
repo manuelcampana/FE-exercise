@@ -1,0 +1,21 @@
+<img src={{article.image}} class="only-xs mobile-image" />
+
+<div class="grid-col article-content article-top">
+  <h1>{{ article.title }}</h1>
+  <p>{{ article.standfirst }}</p>
+  <p class="article-date">{{ formatArticleDate article.date }}</p>
+</div>
+
+<div class="grid-col article-content article-image hide-xs">
+  <img src={{article.image}} alt="image with broken link. I can't see it either" />
+</div>
+
+<div class="grid-col article-content article-bottom">
+  {{{ article.body }}}
+  {{> comments }}
+</div>
+
+<div class="grid-col article-content article-more-stories">
+  {{> moreStories }}
+</div>
+

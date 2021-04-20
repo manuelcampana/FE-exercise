@@ -1,0 +1,12 @@
+.hide-xs {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .only-xs {
+    display: none
+  }
+  .hide-xs {
+    display: block;
+  }
+}

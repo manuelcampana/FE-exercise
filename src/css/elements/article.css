@@ -1,0 +1,36 @@
+.mobile-image {
+  width: 100%;
+  grid-column: span 12;
+}
+
+.article-content {
+  grid-column: span 12;
+}
+
+.article-date {
+  font-size: 80%;
+  color: #aaa;
+  padding-top: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+  .article-top {
+    grid-column: 2/10
+  }
+
+  .article-image {
+    grid-column: 1/9;
+  }
+  .article-image img {
+    width: 100%;
+  }
+
+  .article-more-stories {
+    grid-column: 10/end;
+    grid-row: 3;
+  }
+
+  .article-bottom {
+    grid-column: 2/9
+  }
+}

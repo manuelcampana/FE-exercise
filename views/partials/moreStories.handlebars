@@ -1,0 +1,16 @@
+{{#if posts}}
+  <h2>More stories</h2>
+  <ul class="more-stories-list">
+  {{#each posts}}
+    {{#ifEquals this.category ../article.category}}
+      <li class="story">
+        <img src={{this.thumbnail}} alt="post image" />
+        <div>
+          <h3>{{this.title}}</h3>
+          <a href="#">Read More</a>
+        </div>
+      </li>
+    {{/ifEquals}}
+  {{/each}}
+  </ul>
+{{/if}}
