@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/telegraph/frontend-exercise#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0"
+    "express-handlebars": "^3.1.0",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "jest": "^24.9.0",
