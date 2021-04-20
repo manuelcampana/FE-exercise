@@ -1,0 +1,16 @@
+.more-stories-list {
+  border-top: 1px solid #ccc;
+  margin-top: 8px;
+}
+
+.more-stories-list > .story {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 8px 0;
+}
+
+.more-stories-list > .story > img {
+  height: 60px;
+  margin-right: 8px;
+  width: 60px;
+}
